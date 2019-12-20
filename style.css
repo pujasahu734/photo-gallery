@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: lavenderblush;
+    padding: 5px;
+}
+
+.logo {
+    color: salmon;
+    font-weight: bold;
+    font-style: italic;
+    font-family: initial;
+    padding: 0 30px;
+    margin-bottom: -5px;
+}
+
+.header-navbar {
+    float: right;
+    position: relative;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+ul li {
+    list-style: none;
+    float: left;
+    margin-left: 75px;
+    padding: 35px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 0 15px;
+    display: block;
+    line-height: 30px;
+    position: relative;
+    color: rgb(95, 95, 95);
+    font-weight: bold;
+}
