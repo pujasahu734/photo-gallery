@@ -4,7 +4,7 @@
     <title>
         photo-gallery
     </title>
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
 </head>
 
 <body>
@@ -12,18 +12,15 @@
         <span class="logo">Retouch</span>
         <nav class="header-navbar">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Blogs</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html" class="menu-item selected-menu-item">Home</a></li>
             </ul>
         </nav>
     </header>
 
     <div class="all-photos">
         <h2 class="photo-gallery-h2">Photos</h2>
-        <div class="row">
-            <div class="photos-col">
+        <div class="photos-row">
+            <a href="blog.html" class="photos-col">
                 <div class="dog-profile">
                     <img class="dog-img" src="img/labrador.jpg" alt="">
                     <div class="dog-info">
@@ -32,7 +29,7 @@
                         <p class="dog-place">Bengaluru</p>
                     </div>
                 </div>
-            </div>
+            </a>
             <div class="photos-col">
                 <div class="dog-profile">
                     <img class="dog-img" src="img/siberian.jpg" alt="">
@@ -147,6 +144,33 @@
 
         </div>
     </div>
+
+    <footer>
+        <div class="footer-row">
+            <div class="footer-col">
+                <div class="about-us">
+                    <span class="about-footer">About Us</span>
+                    <p class="about-para-footer">A new website for your dog grooming business can be online in no time when you start with the Dog Grooming WordPress Theme.</p>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <div class="all-icons">
+                    <a href="#"><img class="icons" src="img/icon1.jpg" alt=""></a>
+                    <a href="#"><img class="icons" src="img/icon2.jpg" alt=""></a>
+                    <a href="#"><img class="icons" src="img/icon3.jpg" alt=""></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <div class="about-us">
+                    <span class="about-footer">Contact Us</span>
+                    <p class="about-para-footer">A new website for your dog grooming business can be online in no time when you start with the Dog Grooming WordPress Theme.</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
 </body>
 
 </html>
