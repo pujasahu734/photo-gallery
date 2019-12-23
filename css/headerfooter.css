@@ -85,7 +85,8 @@ footer {
     padding: 25px 175px;
 }
 
-@media only screen and ( max-width:768px) {
+
+/* @media only screen and ( max-width:768px) {
     .about-para-footer {
         font-size: 0.6em;
     }
@@ -94,5 +95,62 @@ footer {
     }
     .all-icons {
         padding: 30 30px;
+    }
+} */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .logo {
+        padding: 15px 25px;
+        font-size: 1.5em;
+    }
+    .footer-row {
+        padding: 15px 20px;
+        display: flex;
+    }
+    .footer-col {
+        width: 33.33%;
+        float: left;
+    }
+    .all-icons {
+        padding: 25px 76px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+    .logo {
+        padding: 15px 25px;
+        font-size: 1.5em;
+    }
+    .footer-row {
+        padding: 15px 20px;
+        display: flex;
+    }
+    .footer-col {
+        width: 33.33%;
+        float: left;
+    }
+    .all-icons {
+        padding: 25px 76px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .logo {
+        padding: 15px 25px;
+        font-size: 1.5em;
+    }
+    .footer-row {
+        padding: 15px 20px;
+        display: inline-block;
+    }
+    .footer-col {
+        width: 100%;
+        float: none;
+    }
+    .all-icons {
+        padding: 25px 105px;
+        text-align: center;
     }
 }
